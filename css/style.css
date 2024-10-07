@@ -63,7 +63,7 @@ header{
 }
 
 .flex-main h2{
-    
+
 }
 
 main{
@@ -160,7 +160,7 @@ main{
         grid-column-end: 4;
         grid-row-start: 4;
         grid-row-end: 4;
-        text align: center;
+        text-align: center;
         padding: 1rem;
         display: flex;
         flex-wrap: wrap;
