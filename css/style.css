@@ -84,39 +84,45 @@ main{
 #natur, #science, #animal, #tech, #culture, #history, #geo, #food{
     padding:3rem;
     border-radius: 10px;
+    padding-top: 15px;
 }
 
 #natur{
         background-color: hsl(146, 52%, 72%);
         grid-column-start: 1;
         grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        font-weight: none;
 
     }
+
+#mansory-grid h3{
+    font-weight: 300;
+}
     
     #science{
         background-color:hsl(0, 0%, 100%);
         grid-column-start: 3;
         grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
 
     }
     #animal{
         background-color: hsl(337, 52%, 72%);
         grid-column-start: 4;
         grid-column-end: 5;
-        grid-row-start: 1;
-        grid-row-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
 
     }
     #tech{
         background-color: hsl(204, 52%, 72%);
         grid-column-start: 3;
         grid-column-end: 5;
-        grid-row-start: 2;
-        grid-row-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
 
 
     }
@@ -124,32 +130,32 @@ main{
         background-color: hsl(271, 52%, 72%);
         grid-column-start: 1;
         grid-column-end: 2;
-        grid-row-start: 3;
-        grid-row-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
 
     }
     #history{
         background-color: hsl(8, 52%, 72%);
         grid-column-start: 2;
         grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
  
     }
     #geo{
         background-color: hsl(168, 52%, 72%);
         grid-column-start: 3;
         grid-column-end: 4;
-        grid-row-start: 3;
-        grid-row-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
 
     }
     #food{
         background-color: hsl(30, 52%, 72%);
         grid-column-start: 4;
         grid-column-end: 5;
-        grid-row-start: 3;
-        grid-row-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
 
     }
 
